@@ -64,6 +64,16 @@ Product framing: reduce pre-visit information chaos and make the clinic team sta
 | 7:00-8:30 | Safety boundary and source labeling：`07-visit-packet-role-separated.png` | 病人回答、家屬觀察、護理補問分開標示；不診斷、不分流、不建議治療。 | Safety boundary 是產品設計的一部分，不是附註。 |
 | 8:30-10:00 | Product integration discussion | 討論 owner、clinic timing、EHR/HIS integration、pilot metric、customization fields。 | 下一步是 workflow pilot design，不是直接宣稱 clinical validation。 |
 
+### Demo Screenshots to Show
+
+圖 1：護理補問工作台把缺漏欄位轉成可直接執行的補問任務，展示 prototype 不只收集資料，也支援 clinic workflow repair。
+
+![Nurse missing-information repair workbench](product/screenshots/05-nurse-missing-info-repair.png)
+
+圖 2：醫師摘要把主訴、症狀群、困擾程度、來源與缺漏整理成一頁式 pre-visit packet，展示 product demo 的核心輸出。
+
+![Clinician previsit summary with synthetic frequency sample](product/screenshots/06-clinician-summary-frequency.png)
+
 ```mermaid
 sequenceDiagram
   participant P as Patient / Family
